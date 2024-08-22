@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "tui"
-version = "0.1.0"
+name = "ttui"
+version = "0.1.1"
 description = "A terminal .txt file viewer"
 authors = ["Andy Sit <andysit173@gmail.com>"]
 license = "MIT"
@@ -25,7 +25,7 @@ typing-extensions = "4.12.2"
 uc-micro-py = "1.0.3"
 
 [tool.poetry.scripts]
-tt = "tui.cli:run"
+tt = "ttui.cli:run"
 
 
 [build-system]

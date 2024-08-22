@@ -1,4 +1,4 @@
-from tui.app import MyApp
+from ttui.app import MyApp
 import click
 
 

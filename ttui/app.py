@@ -7,12 +7,12 @@ from textual.events import Event, Paste
 from textual import work
 from textual.reactive import reactive
 # from header import FlameshowHeader
-from tui.lib.utils import parse_dict
+from ttui.lib.utils import parse_dict
 
 
 #custom
-from tui.screens.modals import ModalAboutDialog, ModalInputDialog, ModalJumpDialog
-from tui.screens.about import about_text
+from ttui.screens.modals import ModalAboutDialog, ModalInputDialog, ModalJumpDialog
+from ttui.screens.about import about_text
 
 """
 run pipelines to analyze video part!
